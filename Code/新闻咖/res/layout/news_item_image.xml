@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 图片 -->
+
+    <LinearLayout
+        android:id="@+id/respImageBorder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_image_border"
+        android:gravity="center"
+        android:orientation="vertical"
+         >
+
+        <ImageView
+            android:id="@+id/imgImage"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fengjing" />
+         <TextView
+            android:id="@+id/imgDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+       		android:layout_marginRight="14dp"
+            android:text="如何有效地在海外市场推广产品？"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        
+    </LinearLayout>
+    
+   
+
+</LinearLayout>
